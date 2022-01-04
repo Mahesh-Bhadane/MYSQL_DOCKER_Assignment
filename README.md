@@ -6,13 +6,6 @@ Our target is whenever the container start we should see the database having stu
 I have used mysql image to build my customize image and to start the container.<br>
 Basically,we need to write a queries for create table and insert data in the test.sql file and load this file in the Dockerfile.
 
-## Makefile commands
-```
-1. make build => builds image from the Dockerfile
-2. make run   => create and start container from the built image
-3. make exec  => to go inside created container
-```
-
 ## Getting Started
 
 1. Clone the project
